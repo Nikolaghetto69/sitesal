@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+}
+.content{
+    background-color: aqua;
+    flex: 70%;
+    height: auto;
+}
+
+.post{
+    display: flex;
+    height: 300px;
+}
+.post img{
+    flex: 30%;
+    height: 280px;
+    width: 100px;
+    margin: 10px;
+}
+
+.post text{
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    margin: 10px;
+
+}
+
+.sidebar{
+    background-color: rgb(32, 32, 32);
+    flex: 30%;
+    height: auto;
+    color: rgb(0, 255, 38);
+}
